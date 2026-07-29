@@ -1,5 +1,8 @@
 # Sentrix
 
+<img width="1536" height="1024" alt="Overview" src="https://github.com/user-attachments/assets/59c4a384-9868-47b7-99d5-42d78d515c06" />
+
+
 Sentrix is a distributed security operations platform designed to connect endpoint agents, centralized orchestration, and threat analytics into a cohesive operating model for modern SOC and XDR workflows.
 
 It provides a practical foundation for deploying lightweight monitoring agents, coordinating service provisioning, and integrating threat intelligence and detection workflows in a containerized environment.
@@ -155,6 +158,8 @@ The runtime model is designed around a coordinated control plane and distributed
 
 ## Docker deployment
 
+<img width="1536" height="1024" alt="Deployement Topology" src="https://github.com/user-attachments/assets/e0f7fed4-07fe-4a91-8762-93b4574dabfc" />
+
 Docker Compose provisions the core platform services, including:
 
 - the session manager,
@@ -196,6 +201,8 @@ A typical Sentrix workflow is:
 
 ## Security
 
+<img width="1536" height="1024" alt="Authentication and Session Security" src="https://github.com/user-attachments/assets/2ce9b683-28d4-49f7-93a3-c3bbaa56f106" />
+
 Security is a foundational design objective. The repository implements a layered model that emphasizes:
 
 - identity-based access through Keycloak,
@@ -215,6 +222,8 @@ The architecture is intentionally decomposed so that each layer can evolve indep
 - and the containerized deployment model provides a flexible path for scaling across environments.
 
 This structure is well suited for staged adoption and iterative expansion.
+<img width="1536" height="1024" alt="Detection and Event Processing Pipeline" src="https://github.com/user-attachments/assets/4ebc4b83-e8b3-4c78-8394-bb3ceabcb0b8" />
+<img width="1536" height="1024" alt="Agent Lifecycle and Control Flow" src="https://github.com/user-attachments/assets/6d401c52-1f94-4ebc-bab9-732b4e707ff5" />
 
 ## Roadmap
 
